@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "981687168567",
+    "project_id": "login-890fb",
+    "storage_bucket": "login-890fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981687168567:android:fb20f2bc44d1498a67d9b2",
+        "android_client_info": {
+          "package_name": "com.microsoftlogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981687168567-vl26oent0u6656mccdetvhud9dsib64n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.microsoftlogin",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "981687168567-geld8nper6r3tqh9rut8hgqbhd0a9baa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfsKyxDFBLHtwaf8BkvJ2E736faAlU8ZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981687168567-geld8nper6r3tqh9rut8hgqbhd0a9baa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
