@@ -8,15 +8,18 @@ import MicrosoftSignIn from './auth-config';
 import FileUploadPage from './DetailsScreen';
 import SplashScreens from './NewPage';
 import LineChartDesign from './chart/LineChart';
-
+import NewchartBot from './chartBot/NewchartBot';
+import ChartApp from './chartBot/chartBot';
+import NewBot from './chartBot/NewchartBot';
 const Stack = createNativeStackNavigator();
 
 function Navigation() {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="SplashScreen" headerMode="none">
-      <Stack.Screen name="LineChartDesign" component={LineChartDesign}  />
-      {/* <Stack.Screen name="SplashScreens" component={SplashScreens} options={{headerShown : false}} /> */}
+        {/* <Stack.Screen name="SplashScreens" component={SplashScreens} options={{ headerShown: false }} /> */}
+        <Stack.Screen name="NewBot" component={NewBot} />
+        {/* <Stack.Screen name="LineChartDesign" component={LineChartDesign} /> */}
         <Stack.Screen name="MicrosoftSignIn" component={MicrosoftSignIn} />
         <Stack.Screen name="FileUploadPage" component={FileUploadPage} />
       </Stack.Navigator>

@@ -19,5 +19,11 @@ buildscript {
     }
 
 }
-
+allprojects {
+    repositories {
+        maven {
+            url "https://zendesk.jfrog.io/artifactory/repo"
+        }
+    }
+}
 apply plugin: "com.facebook.react.rootproject"
